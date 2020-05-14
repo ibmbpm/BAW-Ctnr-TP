@@ -1,4 +1,4 @@
-# IBM Business Automation Workflow on Containers 20.0.0.1 Demo Pattern Tech Preview
+# IBM Business Automation Workflow on Containers Demo Pattern Tech Preview
 
 This repository includes folders and resources to help you install IBM Business Automation Workflow on Containers for demonstration purposes on Red Hat OpenShift Cloud Platform (OCP).
 
@@ -19,20 +19,20 @@ The configuration include these components:
 The demo pattern deployment provisions all the required services, such as IBM Db2 and OpenLDAP, with the default values so there is no need to prepare these in advance. 
 
 Use the following sections to install or uninstall the demo pattern:
-- [Install a deployment pattern](BAW-on-Ctnrs-Demo_v20.0.0.1.md#install-a-deployment-pattern)
-- [Uninstall a deployment pattern](BAW-on-Ctnrs-Demo_v20.0.0.1.md#uninstall-a-deployment-pattern)
+- [Install a deployment pattern](#install-a-deployment-pattern)
+- [Uninstall a deployment pattern](#uninstall-a-deployment-pattern)
 
 # Install a deployment pattern
 
-- [Step 1: Plan and prepare (OCP cluster administrator)](BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md#step-1-plan-and-prepare-ocp-cluster-administrator)
-- [Step 2: Get access to the container images (installer)](BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md#step-2-get-access-to-the-container-images-installer)
-- [Step 3: Run the deployment script (installer)](BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md#step-3-run-the-deployment-script-installer)
-- [Step 4: Verify that the containers are running](BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md#step-4-verify-that-the-containers-are-running)
-- [Step 5: Access the services](BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md#step-5-access-the-services)
-- [Step 6: List the default LDAP users and passwords](BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md#step-6-list-the-default-ldap-users-and-passwords)
-- [Step 7: Post-installation tasks](BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md#step-7-post-installation-tasks)
-- [Troubleshoot](BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md#troubleshoot)
-- [Uninstall a deployment pattern](BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md#uninstall-a-deployment-pattern)
+- [Step 1: Plan and prepare (OCP cluster administrator)](#step-1-plan-and-prepare-ocp-cluster-administrator)
+- [Step 2: Get access to the container images (installer)](#step-2-get-access-to-the-container-images-installer)
+- [Step 3: Run the deployment script (installer)](#step-3-run-the-deployment-script-installer)
+- [Step 4: Verify that the containers are running](#step-4-verify-that-the-containers-are-running)
+- [Step 5: Access the services](#step-5-access-the-services)
+- [Step 6: List the default LDAP users and passwords](#step-6-list-the-default-ldap-users-and-passwords)
+- [Step 7: Post-installation tasks](#step-7-post-installation-tasks)
+- [Troubleshoot](#troubleshoot)
+- [Uninstall a deployment pattern](#uninstall-a-deployment-pattern)
 
 ## Step 1: Plan and prepare (OCP cluster administrator)
 

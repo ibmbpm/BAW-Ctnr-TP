@@ -1,4 +1,4 @@
-# IBM Business Automation Workflow on Containers 20.0.0.1 Tech Preview
+# IBM Business Automation Workflow on Containers Tech Preview
 Learn how to configure IBM Business Automation Workflow to run your applications, case solutions, and toolkits in a container environment.
 
 ## Table of contents
@@ -42,47 +42,47 @@ The OpenShift cluster has the following minimum requirements for the deployment:
 Go to the IBM Business Automation Workflow on Containers Tech Preview page. The download tab provides archives (.tar.gz) for the software.
 
 Download the provided archives to a server that is connected to your Docker registry.
-- BAW-on-Ctnrs-20.0.0.1-baw.tar.gz
-- BAW-on-Ctnrs-20.0.0.1-operator.tar.gz
-- BAW-on-Ctnrs-20.0.0.1-Supplemental.tar.gz
-- BAW-on-Ctnrs-20.0.0.1-scripts.tar.gz
+- BAW-on-Ctnrs-baw.tar.gz
+- BAW-on-Ctnrs-operator.tar.gz
+- BAW-on-Ctnrs-Supplemental.tar.gz
+- BAW-on-Ctnrs-scripts.tar.gz
 
-The structure of the BAW-on-Ctnrs-20.0.0.1-baw.tar.gz package is
+The structure of the BAW-on-Ctnrs-baw.tar.gz package is
 ```
 |-- images
-|   |-- baw-jms-server_20.0.2.tar.gz
-|   |-- dba-dbcompatibility-initcontainer_20.0.2.tar.gz
-|   |-- dba-etcd_20.0.2.tar.gz
-|   |-- dba-keytool-initcontainer_20.0.2.tar.gz
-|   |-- dba-keytool-jobcontainer_20.0.2.tar.gz
-|   |-- dba-umsregistration-initjob_20.0.2.tar.gz
-|   |-- iaws-ps-content-integration_20.0.2.tar.gz
-|   |-- pfs-bpd-database-init-prod_20.0.2.tar.gz
-|   |-- pfs-elasticsearch-prod_20.0.2.tar.gz
-|   |-- pfs-init-prod_20.0.2.tar.gz
-|   |-- pfs-nginx-prod_20.0.2.tar.gz
-|   |-- pfs-prod_20.0.2.tar.gz
-|   |-- workflow-server_20.0.0.1.tar.gz
-|   |-- workflow-server-case-initialization_20.0.0.1.tar.gz
-|   `-- workflow-server-dbhandling_20.0.0.1.tar.gz
+|   |-- baw-jms-server.tar.gz
+|   |-- dba-dbcompatibility-initcontainer.tar.gz
+|   |-- dba-etcd.tar.gz
+|   |-- dba-keytool-initcontainer.tar.gz
+|   |-- dba-keytool-jobcontainer.tar.gz
+|   |-- dba-umsregistration-initjob.tar.gz
+|   |-- iaws-ps-content-integration.tar.gz
+|   |-- pfs-bpd-database-init-prod.tar.gz
+|   |-- pfs-elasticsearch-prod.tar.gz
+|   |-- pfs-init-prod.tar.gz
+|   |-- pfs-nginx-prod.tar.gz
+|   |-- pfs-prod.tar.gz
+|   |-- workflow-server.tar.gz
+|   |-- workflow-server-case-initialization.tar.gz
+|   `-- workflow-server-dbhandling.tar.gz
 ```
 
-The structure of the BAW-on-Ctnrs-20.0.0.1-operator.tar.gz package is
+The structure of the BAW-on-Ctnrs-operator.tar.gz package is
 ```
 |-- images
-|   `-- icp4a-operator_20.0.2.tar
+|   `-- icp4a-operator.tar.gz
 ```
 
-The structure of the BAW-on-Ctnrs-20.0.0.1-Supplemental.tar.gz package is
+The structure of the BAW-on-Ctnrs-Supplemental.tar.gz package is
 ```
 |-- images
-|   |-- cmis_20.0.2.tar.gz
-|   |-- cpe_20.0.2.tar.gz
-|   |-- navigator-sso_20.0.2.tar.gz
-|   `-- ums_20.0.2.tar.gz
+|   |-- cmis.tar.gz
+|   |-- cpe.tar.gz
+|   |-- navigator-sso.tar.gz
+|   `-- ums.tar.gz
 ```
 
-The structure of the BAW-on-Ctnrs-20.0.0.1-scripts.tar.gz package is
+The structure of the BAW-on-Ctnrs-scripts.tar.gz package is
 ```
 |-- BAW-Ctnrs-TP
 |   |-- descriptors
@@ -96,8 +96,8 @@ In directory of `BAW-Ctnrs-TP`, you will find the scripts and Kubernetes descrip
 You can choose a demo or customized  deployment to install IBM Business Automation Workflow on Containers. A deployment that is intended for demonstration purposes is much quicker to install than a customized deployment. Scripts are provided to help an OpenShift cluster administrator set up the cluster and a non-administrator user to run the installation. The demo deployment provisions all of the required services, such as IBM Db2 and OpenLDAP, with the default values. With a customized deployment, you must prepare a Db2 and LDAP server before installing Business Automation Workflow.
 
 Choose your deployment type:
-- [Business Automation Workflow Demo Pattern](./BAW-on-Ctnrs-TP-Demo-pattern_v20.0.0.1.md)
-- [Business Automation Workflow Customized](./BAW-on-Ctnrs-TP_v20.0.0.1.md)
+- [Business Automation Workflow Demo Pattern](./BAW-on-Ctnrs-TP-Demo-pattern.md)
+- [Business Automation Workflow Customized](./BAW-on-Ctnrs-TP.md)
 
 
 ## Troubleshooting

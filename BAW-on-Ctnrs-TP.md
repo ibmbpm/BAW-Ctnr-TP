@@ -1,4 +1,4 @@
-# IBM Business Automation Workflow on Containers 20.0.0.1 Tech Preview
+# IBM Business Automation Workflow on Containers Tech Preview
 Learn how to configure and customize IBM Business Automation Workflow to run your applications, case solutions, and toolkits in a container environment.
 
 ## Table of contents
