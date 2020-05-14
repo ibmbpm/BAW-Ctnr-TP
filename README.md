@@ -50,36 +50,36 @@ Download the provided archives to a server that is connected to your Docker regi
 The structure of the BAW-on-Ctnrs-20.0.0.1-baw.tar.gz package is
 ```
 |-- images
-|   |-- baw-jms-server_20.0.2.tar.gz
-|   |-- dba-dbcompatibility-initcontainer_20.0.2.tar.gz
-|   |-- dba-etcd_20.0.2.tar.gz
-|   |-- dba-keytool-initcontainer_20.0.2.tar.gz
-|   |-- dba-keytool-jobcontainer_20.0.2.tar.gz
-|   |-- dba-umsregistration-initjob_20.0.2.tar.gz
-|   |-- iaws-ps-content-integration_20.0.2.tar.gz
-|   |-- pfs-bpd-database-init-prod_20.0.2.tar.gz
-|   |-- pfs-elasticsearch-prod_20.0.2.tar.gz
-|   |-- pfs-init-prod_20.0.2.tar.gz
-|   |-- pfs-nginx-prod_20.0.2.tar.gz
-|   |-- pfs-prod_20.0.2.tar.gz
-|   |-- workflow-server_20.0.0.1.tar.gz
-|   |-- workflow-server-case-initialization_20.0.0.1.tar.gz
-|   `-- workflow-server-dbhandling_20.0.0.1.tar.gz
+|   |-- baw-jms-server.tar.gz
+|   |-- dba-dbcompatibility-initcontainer.tar.gz
+|   |-- dba-etcd.tar.gz
+|   |-- dba-keytool-initcontainer.tar.gz
+|   |-- dba-keytool-jobcontainer.tar.gz
+|   |-- dba-umsregistration-initjob.tar.gz
+|   |-- iaws-ps-content-integration.tar.gz
+|   |-- pfs-bpd-database-init-prod.tar.gz
+|   |-- pfs-elasticsearch-prod.tar.gz
+|   |-- pfs-init-prod.tar.gz
+|   |-- pfs-nginx-prod.tar.gz
+|   |-- pfs-prod_.tar.gz
+|   |-- workflow-server.tar.gz
+|   |-- workflow-server-case-initialization.tar.gz
+|   `-- workflow-server-dbhandling_.tar.gz
 ```
 
 The structure of the BAW-on-Ctnrs-20.0.0.1-operator.tar.gz package is
 ```
 |-- images
-|   `-- icp4a-operator_20.0.2.tar
+|   `-- icp4a-operator.tar
 ```
 
 The structure of the BAW-on-Ctnrs-20.0.0.1-Supplemental.tar.gz package is
 ```
 |-- images
-|   |-- cmis_20.0.2.tar.gz
-|   |-- cpe_20.0.2.tar.gz
-|   |-- navigator-sso_20.0.2.tar.gz
-|   `-- ums_20.0.2.tar.gz
+|   |-- cmis.tar.gz
+|   |-- cpe.tar.gz
+|   |-- navigator-sso.tar.gz
+|   `-- ums.tar.gz
 ```
 
 The structure of the BAW-on-Ctnrs-20.0.0.1-scripts.tar.gz package is
