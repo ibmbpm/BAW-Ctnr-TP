@@ -70,7 +70,7 @@ The structure of the BAW-on-Ctnrs-20.0.0.1-baw.tar.gz package is
 The structure of the BAW-on-Ctnrs-20.0.0.1-operator.tar.gz package is
 ```
 |-- images
-|   `-- icp4a-operator.tar
+|   `-- icp4a-operator.tar.gz
 ```
 
 The structure of the BAW-on-Ctnrs-20.0.0.1-Supplemental.tar.gz package is
